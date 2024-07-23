@@ -1,7 +1,7 @@
 var students = [
 	{
 		"name":"姚珂璐",
-		"img":"./img/male.jpg",
+		"img":"./img/ykl.jpg",
 		"start_year":"2024",
 		"type":"博士",
 		"email":"yaokelu@zhejianglab.org",
