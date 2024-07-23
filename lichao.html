@@ -274,21 +274,16 @@
 						
 						</div>
 						<div class="col-md-3">
-						<img height="200px" src="./img/ly.jpg"/>
-						</div>
-						<div class="col-md-3">
-						<img height="200px" src="./img/pad.jpg"/>
-						</div>
-						<div class="col-md-3">
-						<img height="200px" src="./img/pad.jpg"/>
-						</div>
-						<div class="col-md-3">
-						<img height="200px" src="./img/pad.jpg"/>
-						</div>
-						<div class="col-md-3">
+						<div class="row">
+							<div class="col-md-12"><img height="200px" src="./img/ly.jpg"/></div>
+							<div class="col-md-12">
 							<p class="text-center"><font><i><small>刘源<br/>&nbsp博士后, since 2023<br/><font color="gray">liuyuan23@zhejianglab.org</font></small></i></b></font>
-							
-						</div>					
+						</div>	
+						</div>
+						</div>
+						
+						
+									
 						</div>
 						
 						
@@ -364,24 +359,23 @@
 				if (add_num != 0){
 					add_num = 4 - add_num;
 				}
-				
+
 				for (var i = 0; i < postdocs.length; i++){
 					var img = postdocs[i].img;
-					post_string += `<div class="col-md-3"><img height="200px" src="`+img+`"/></div>`;
-				}
-				for (var i = 0; i < add_num; i++){
-					post_string += `<div class="col-md-3"><img height="200px" src="./img/pad.jpg"/></div>`;
-				}
-				for (var i = 0; i < postdocs.length; i++){
 					var name = postdocs[i].name;
 					var year = postdocs[i].start_year;
 					var email = postdocs[i].email;
 					var homepage = postdocs[i].homepage;
 					var type = postdocs[i].type;
-					post_string += `<div class="col-md-3"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, since&nbsp`+year+`<br/><font color="gray">`
-					+email+`</font></small></i></b></font></div>	`;
+					post_string += `<div class="col-md-3"><div class="row">`;
+					post_string += `<div class="col-md-12"><img height="200px" src="`+img+`"/></div>`;
+					post_string += `<div class="col-md-12"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, since&nbsp`+year+`<br/><font color="gray">`
+					+email+`</font></small></i></b></font></div>`;
+					
+					post_string += `</div></div>`;
 				}
-				post_string += `</div>`;
+				
+				post_string += `</div>`
 				
 				
 				// 准备学生
@@ -395,27 +389,25 @@
 						
 						</div>`;
 						
-				var add_num = 4 - students.length % 4;
+				var add_num = students.length % 4;
 				if (add_num != 0){
 					add_num = 4 - add_num;
 				}
 				for (var i = 0; i < students.length; i++){
 					var img = students[i].img;
-					post_string += `<div class="col-md-3"><img height="200px" src="`+img+`"/></div>`;
-				}
-				for (var i = 0; i < add_num; i++){
-					post_string += `<div class="col-md-3"><img height="200px" src="./img/pad.jpg"/></div>`;
-				}
-				for (var i = 0; i < students.length; i++){
 					var name = students[i].name;
 					var year = students[i].start_year;
 					var email = students[i].email;
 					var homepage = students[i].homepage;
 					var type = students[i].type;
-					post_string += `<div class="col-md-3"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, since&nbsp`+year+`<br/><font color="gray">`
-					+email+`</font></small></i></b></font></div>	`;
+					post_string += `<div class="col-md-3"><div class="row">`;
+					post_string += `<div class="col-md-12"><img height="200px" src="`+img+`"/></div>`;
+					post_string += `<div class="col-md-12"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, since&nbsp`+year+`<br/><font color="gray">`
+					+email+`</font></small></i></b></font></div>`;
+					
+					post_string += `</div></div>`;
 				}
-				post_string += `</div>`;
+				post_string += `</div>`
 				
 				$("#mems").html(post_string);
 				

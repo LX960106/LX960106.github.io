@@ -1,7 +1,7 @@
 var students = [
 	{
-		"name":"姚珂璐",
-		"img":"./img/ykl.jpg",
+		"name":"姚柯璐",
+		"img":"./img/ykl.png",
 		"start_year":"2024",
 		"type":"博士",
 		"email":"yaokelu@zhejianglab.org",
@@ -29,6 +29,14 @@ var students = [
 		"start_year":"2023",
 		"type":"硕士",
 		"email":"lvchenghui23@mails.ucas.ac.cn",
+		"homepage":""
+	},
+	{
+		"name":"王劲",
+		"img":"./img/wj.jpg",
+		"start_year":"2019",
+		"type":"硕士",
+		"email":"wangjing@mails.ucas.ac.cn",
 		"homepage":""
 	}
 ]
