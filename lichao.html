@@ -100,10 +100,10 @@
 								<p><a href="https://www.tencent.com/en-us/index.html" target="_blank">
 									
 								</p></a>
-								<p>之江实验室，天基计算系统研究中心，研究员</p>
+								<p>之江实验室，天基计算系统研究中心，主任，研究员</p>
 								<p>浙江大学，计算机科学与技术学院，博导</P>
 								<p><span class="glyphicon glyphicon-envelope" aria-hidden="true">
-								</span><a href="mailto:lixian0106@gmail.com" style="text-decoration: none;color:black;">&nbsp lichao@gmail.com</a></p>
+								</span><a href="mailto:lixian0106@gmail.com" style="text-decoration: none;color:black;">&nbsp lichao@zhejianglab.org</a></p>
 								
 							</div>					
 						</div>
@@ -115,9 +115,9 @@
 						<font face="tencent"><b>招生 Seeking for Prospective Ph.D, Master, and undergraduate students</b></font></h4>
 						<p>
 							I am looking for highly motivated students to work together on the computer vision, specifically, 
-							the large vision-language models (LVLMs) for remote sensing and the interpretability of LVLMs, 
+							the large vision-language models (LVLMs) and the interpretability of LVLMs, 
 							deep learning theory, and other frontier topics in machine learning and computer vision.  
-							and other frontier topics in machine learning and computer vision. You feel for free to contact me with the email <b>lichao@gmail.com</b>.
+							and other frontier topics in machine learning and computer vision. You feel for free to contact me with the email <b>lichao@zhejianglab.org</b>.
 						</p>
 						
 					</div>
@@ -144,7 +144,7 @@
 					<div class="col-md-12">
 						<br/>
 						<h4 id="publications"></h4>
-						<h3 id="publications"><b>Publication</b></h3>
+						<h3 id="publications"><b>Publication</b></h3><span><b>*</b> represents corresponding author</span>
 						<div id="pubs">
 						<div class="row pub1">
 							<div class="col-md-4">
@@ -252,7 +252,7 @@
 						<div class="col-md-3 col-md-offset-4">
 							<div class="row">
 								<div class="col-md-12"><div class="row"><div class="col-md-10 col-md-offset-1">
-									<img height="200px" width="100%", src="./img/lc.jpg"/>
+									<img height="200px" src="./img/lc.jpg"/>
 								</div></div></div>
 								<div class="col-md-12">
 									<p class="text-center"><font><i><small>李超<br/>&nbsp浙江大学博导<br/>之江实验室研究员<font color="gray">liuyuan23@zhejianglab.org</font></small></i></b></font>
@@ -344,7 +344,7 @@
 					var homepage = postdocs[i].homepage;
 					var type = postdocs[i].type;
 					post_string += `<div class="col-md-3"><div class="row">`;
-					post_string += `<div class="col-md-12"><div class="row"><div class="col-md-10 col-md-offset-1"><img height="200px" width="100%" src="`+img+`"/></div></div></div>`;
+					post_string += `<div class="col-md-12"><div class="row"><div class="col-md-10 col-md-offset-1"><img height="200px" src="`+img+`"/></div></div></div>`;
 					post_string += `<div class="col-md-12"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, since&nbsp`+year+`<br/><font color="gray">`
 					+email+`</font>`;
 					
@@ -410,7 +410,7 @@
 					var type = alumni[i].type;
 					var now_direction = alumni[i].now_direction;
 					post_string += `<div class="col-md-3"><div class="row">`;
-					post_string += `<div class="col-md-12"><div class="row"><div class="col-md-10 col-md-offset-1"><img height="200px" width="100%" src="`+img+`"/></div></div></div>`;
+					post_string += `<div class="col-md-12"><div class="row"><div class="col-md-10 col-md-offset-1"><img height="200px"  src="`+img+`"/></div></div></div>`;
 					post_string += `<div class="col-md-12"><p class="text-center"><font><i><small>`+name+`<br/>&nbsp`+type+`, `+year+`<br/>毕业去向：`
 					+now_direction+`<br/><font color="gray">`+email+`</font>`;
 					if(homepage != ""){
@@ -501,7 +501,7 @@
 							if(j<au_leghth-1){pat_string += authors[j]+", ";}else{pat_string += authors[j];}
 						}
 					}
-					pat_string += `<font>&nbspApplication No. `+number+`</font><br/></p></div></div>`;
+					pat_string += `<font>&nbsp专利号 No. `+number+`</font><br/></p></div></div>`;
 				}
 				$("#pats").html(pat_string);
 				
