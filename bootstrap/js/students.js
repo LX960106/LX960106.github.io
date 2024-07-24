@@ -13,7 +13,7 @@ var students = [
 		"start_year":"2024",
 		"type":"博士",
 		"email":"xianlee@zju.edu.cn",
-		"homepage":""
+		"homepage":"https://lx960106.github.io/"
 	},
 	{
 		"name":"陈雅莹",
@@ -29,14 +29,6 @@ var students = [
 		"start_year":"2023",
 		"type":"硕士",
 		"email":"lvchenghui23@mails.ucas.ac.cn",
-		"homepage":""
-	},
-	{
-		"name":"王劲",
-		"img":"./img/wj.jpg",
-		"start_year":"2019",
-		"type":"硕士",
-		"email":"wangjing@mails.ucas.ac.cn",
 		"homepage":""
 	}
 ]
