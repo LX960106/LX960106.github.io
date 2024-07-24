@@ -14,34 +14,6 @@ var programs = [
 		"time":"2018.01-2020.12"
 	},
 	{
-		"title":"航空智能XX系统",
-		"program_type": "空J预研项目",
-		"author_type":"项目负责人",
-		"funds":"600万",
-		"time":"2019.06-2021.12"
-	},
-	{
-		"title":"J载XX国产智能平台",
-		"program_type": "网J预研项目",
-		"author_type":"项目负责人",
-		"funds":"590万",
-		"time":"2018.01-2020.12"
-	},
-	{
-		"title":"网络化XX遥感卫星系统技术",
-		"program_type": "装发重点项目",
-		"author_type":"项目负责人",
-		"funds":"300万",
-		"time":"2019.01-2020.12"
-	},
-	{
-		"title":"面向DZZ的智能计算平台",
-		"program_type": "J科技委X66重点项目",
-		"author_type":"项目负责人",
-		"funds":"400万",
-		"time":"2019.01-2021.12"
-	},
-	{
 		"title":"装备深嵌入智能计算技术",
 		"program_type": "装发共用技术",
 		"author_type":"项目负责人",
@@ -75,27 +47,6 @@ var programs = [
 		"author_type":"",
 		"funds":"国家自然青年基金61702487，26万",
 		"time":"2018.01-2020.12"
-	},
-	{
-		"title":"智联网XX动态赋能关键技术",
-		"program_type": "JUN委科技委创新特区项目",
-		"author_type":"项目负责人",
-		"funds":"140万",
-		"time":"2018.01-2019.12"
-	},
-	{
-		"title":"XX轻量化与加载优化技术",
-		"program_type": "ZF共用技术项目",
-		"author_type":"课题负责人",
-		"funds":"120万",
-		"time":"2022.03-2024.12"
-	},
-	{
-		"title":"XX星载智能计算系统",
-		"program_type": "ZF共用技术项目",
-		"author_type":"课题负责人",
-		"funds":"100万",
-		"time":"2022.03-2024.12"
 	}
 
 
